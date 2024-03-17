@@ -25,7 +25,7 @@ const Card = ({
             <Button>Contact on WhatsApp</Button>
           </Link>
           <Link href="tel:+919136123478" target="_blank">
-            <Button>📞</Button>
+            <Button>Call</Button>
           </Link>
         </div>
       </div>
