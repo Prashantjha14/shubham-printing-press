@@ -15,10 +15,12 @@ const NavBar = () => {
           </li>
           <li>
             <Link
-              href="/about-us"
+              href="/PRICE LIST.pdf"
+              download={true}
+              target="_blank"
               className="hover:text-red-400 hover:underline transition-all duration-100 ease-in"
             >
-              About Us
+              Price List
             </Link>
           </li>
           <li>

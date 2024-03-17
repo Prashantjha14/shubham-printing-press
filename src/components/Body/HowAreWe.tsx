@@ -11,13 +11,11 @@ const HowAreWe = () => {
           From lanyards to keychains, badges to business cards, we bring your
           ideas to life with high-quality, customizable printing solutions.
         </p>
-        <Link href="/about-us">
-          <Button variant="outline" className="mt-3 mb-3 mr-2">
-            Read more about us
-          </Button>
+        <Link href="/PRICE LIST.pdf" download={true} target="_blank">
+          <Button className="mt-3 mb-3 mr-2">Price List</Button>
         </Link>
         <Link href="/contact-us">
-          <Button variant="outline" className="mt-3 mb-3">
+          <Button variant="outline" className="mt-3 mb-3 mr-2">
             Contact us now!
           </Button>
         </Link>

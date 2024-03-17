@@ -20,14 +20,6 @@ const Footer = () => {
               </Link>
             </h3>
           </div>
-          <div className="">
-            <ul className="text-center text-end">
-              <li>Links</li>
-              <li>Services</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
-            </ul>
-          </div>
         </section>
         <div className="text-center border-t-2">
           <p className="desc">

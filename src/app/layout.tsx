@@ -11,8 +11,8 @@ import Footer from "@/components/Footers/Footer";
 const ubuntuFont = Ubuntu({ weight: "500", subsets: ["latin-ext"] });
 
 export const metadata: Metadata = {
-  title: "Shubham Printing Press",
-  description: "Shubham Printing Press",
+  title: "Shubham Printing Press Delhi",
+  description: "+91 9136123478",
 };
 
 export default function RootLayout({
@@ -22,6 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
+      <head>
+        <link
+          rel="shortcut icon"
+          href="/images/logos/favicon.ico"
+          type="image/x-icon"
+        />
+      </head>
       <body className={ubuntuFont.className}>
         <div className="main">
           <div className="gradient"></div>
