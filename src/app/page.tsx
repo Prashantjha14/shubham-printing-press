@@ -1,3 +1,4 @@
+import Banner from "@/components/Body/Banner";
 import Cards from "@/components/Body/Cards";
 import Hero from "@/components/Body/Hero";
 import HowAreWe from "@/components/Body/HowAreWe";
@@ -10,6 +11,7 @@ export default function Home() {
       <section>
         <Hero />
         <HowAreWe />
+        <Banner />
         <Cards limitofsix />
         <div className="text-center mb-3">
           <Link href="services">

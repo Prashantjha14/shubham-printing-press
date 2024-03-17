@@ -26,7 +26,7 @@ export default function RootLayout({
         <div className="main">
           <div className="gradient"></div>
         </div>
-        <UpperHeader text="All India Delivery" />
+        <UpperHeader text="B2B Order & Delivery System in Pan India" />
         <Header />
         <main className="background w-full min-h-[100vh]">{children}</main>
         <ThemeModeFooter />
