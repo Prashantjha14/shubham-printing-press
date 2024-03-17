@@ -3,7 +3,7 @@ import Cards from "@/components/Body/Cards";
 const page = () => {
   return (
     <div>
-      <Cards />
+      <Cards limitofsix={false} />
     </div>
   );
 };
